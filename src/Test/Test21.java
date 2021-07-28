@@ -21,6 +21,7 @@ public class Test21 {
 		}
 		a.remove(3);
 		a.remove("zzzz");
+		
 		System.out.println(a);
 	}
 

@@ -14,9 +14,9 @@ public class Test18 {
 		int s=0;
 		for(int c=2;c<=a;c++) {
 			if(a%c==0&&b%c==0) {
-//				System.out.println(c);
+//				System.out.println(c); 
 				s=c;
-			}
+			} 
 		}System.out.println("최대공약수:"+s);
 		System.out.println("최소 공배수 :"+(a*b)/s);
 	}
