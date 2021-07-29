@@ -9,10 +9,11 @@ public class Student {
 	String gender;//성별,male/female
 	String mobile;//전화번호,010-----
 	
+	
+	
+	
 
-	public String toString() {
-		return "이름="+name;
-	}
+	
 //	//String name;
 //	int nyear;
 //	int nclass;
