@@ -5,9 +5,14 @@ import java.util.ArrayList;
 public class Menu {
 	private ArrayList<String>alName;
 	private ArrayList<Integer>alPrice;
-	
-	
-	
+////	static int a=1;
+//	static void seta(int n) {
+//		a=n;
+//	}
+//	static int geta() {
+//		return a;
+//	}
+	//static final a=1; ->필드 수정불가
 	Menu() {// 매개변수가 없는 생성자-> 기본생성자(default constructor)
 		this.alName=new ArrayList<String>();
 		this.alPrice=new ArrayList<Integer>();

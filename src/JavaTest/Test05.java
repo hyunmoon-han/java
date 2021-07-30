@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Test05 {
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner str=new Scanner(System.in);
@@ -28,6 +28,7 @@ public class Test05 {
 		s.close();
 		System.out.println("total");
 		menu.showMenu();
+		
 		System.out.println("프로그램 종료");
 		
 		//Menu y=new Menu("gkgk",1); //생성자 오버로딩 호출
