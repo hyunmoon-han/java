@@ -16,7 +16,7 @@ public class Test05 {
 		System.out.print("메뉴를 입력:");
 		String name=str.nextLine();
 		
-		while(!name.isEmpty()) {
+		while(!name.isEmpty()) {//!name.equals("")
 			System.out.print("가격:");
 			int price=s.nextInt();
 			menu.addName(name);

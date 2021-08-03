@@ -22,6 +22,16 @@ public class Menu {
 
 //		System.out.println(this.alName.get(i)+"\t $"+this.alPrice.get(i)) = this.showMenu();
 //	}	
+		addName("Americano");
+		addName("Espresso");
+		addName("Latte");
+		addPrice(2000);
+		addPrice(2500);
+		addPrice(3000);
+		
+		showMenu();
+
+		
 	}/*생성자 -용도 :주로 초기화 작업용.
 		명명법: 클래스와 이름이 같아야됨
 		반환값: 반환값이 없다.(반환할 수 없이 ,작업만 실행)
@@ -30,6 +40,7 @@ public class Menu {
 		*/
 	//생성자 오버로딩 <- 다형성    (매개변수를 다르게 해서 여러개의 생성자를 정의 할수있는 기능 )
 	Menu(String a,int b) {
+		
 		this.alName=new ArrayList<String>();
 		this.alPrice=new ArrayList<Integer>();
 	}
